@@ -1,0 +1,71 @@
+概述:
+                     count   unique                        top    freq  \
+user_id          1294776.0      NaN                        NaN     NaN   
+name               1294776      497                    arlac77   37960   
+location           1294776      344                    Germany  107747   
+total_influence  1294776.0      NaN                        NaN     NaN   
+country            1206625       52              United States  305788   
+event_type         1294776       15                  PushEvent  410955   
+event_action       1294776        7                      added  617218   
+event_time         1294776  1006997  2024-10-30 02:12:11+08:00      73   
+
+                            mean              std         min         25%  \
+user_id          13255667.657857  19531285.950675       225.0    663432.0   
+name                         NaN              NaN         NaN         NaN   
+location                     NaN              NaN         NaN         NaN   
+total_influence       544.086307       257.807236  338.532318  390.048645   
+country                      NaN              NaN         NaN         NaN   
+event_type                   NaN              NaN         NaN         NaN   
+event_action                 NaN              NaN         NaN         NaN   
+event_time                   NaN              NaN         NaN         NaN   
+
+                        50%         75%          max  
+user_id           4582016.0  18066964.0  112826355.0  
+name                    NaN         NaN          NaN  
+location                NaN         NaN          NaN  
+total_influence  455.271332   574.85437  1776.967163  
+country                 NaN         NaN          NaN  
+event_type              NaN         NaN          NaN  
+event_action            NaN         NaN          NaN  
+event_time              NaN         NaN          NaN  
+
+缺失值:
+user_id                0
+name                   0
+location               0
+total_influence        0
+country            88151
+event_type             0
+event_action           0
+event_time             0
+dtype: int64
+
+重复行:
+49252
+
+数据类型:
+user_id              int64
+name                object
+location            object
+total_influence    float64
+country             object
+event_type          object
+event_action        object
+event_time          object
+dtype: object
+
+前5行:
+   user_id    name     location  total_influence        country   event_type  \
+0   663432  bdraco  Houston, TX      1776.967163  United States  CreateEvent   
+1   663432  bdraco  Houston, TX      1776.967163  United States  CreateEvent   
+2   663432  bdraco  Houston, TX      1776.967163  United States  CreateEvent   
+3   663432  bdraco  Houston, TX      1776.967163  United States  CreateEvent   
+4   663432  bdraco  Houston, TX      1776.967163  United States  CreateEvent   
+
+  event_action                 event_time  
+0        added  2024-11-26 20:28:37+08:00  
+1        added  2024-11-26 20:42:57+08:00  
+2        added  2024-11-27 04:10:46+08:00  
+3        added  2024-11-27 17:43:50+08:00  
+4        added  2024-11-27 19:56:34+08:00  
+
